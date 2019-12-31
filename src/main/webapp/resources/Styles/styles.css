@@ -1,3 +1,101 @@
-.active{
-	background: aqua;
+#header{
+	background: url("../images/banner1.jpg");
+	height: 300px !important;
 }
+.justify-content-center{
+	margin-left: 25%;
+}
+	
+.dropdown-menu{
+	
+}
+.nav-link{
+	color: black !important;
+    margin-right: 10px !important;
+}
+.active>.nav-link{
+	background: none !important;
+	color: #228B22 !important;
+	font-weight: bold;
+}
+.nav-link:focus{
+	background: none !important;
+	color: #228B22 !important;
+	font-weight: bold;
+}
+.show{
+	background: light !important;
+}
+
+.content-sale{
+	text-align: center !important;
+    margin-top: 57px !important;
+    font-size: 20px;
+    font-style: italic;
+}
+button{
+	background: light;
+}
+@media (max-width: 575.98px) { ... }
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.justify-content-center{
+	margin-left: 0%;
+}
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.justify-content-center{
+	margin-left: 11%;
+}
+}
+@media (min-width: 1200px) {
+	.justify-content-center{
+	margin-left: 25%;
+}
+	
+}
+
+.title-product{
+	text-align: center;
+    margin-top: 58px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 58px;
+
+}
+ #info{
+ 	text-align: center;
+ 	margin-top: 40px;
+ }
+.card img{
+	height: 256px;
+}
+.card-body{
+	text-align: center;
+    background: aliceblue;
+    height: 150px;
+}
+.row{
+	margin-bottom: 42px !important;
+}
+#footer{
+	margin-top: 30px;
+	color:black;
+	background-image: url("../images/background-footer.jpg"); 
+	
+}
+#footer p{
+	padding-block-start: 30px;
+	font-size: 27px;
+	text-align: center;
+}
+.form-group input{
+	margin-bottom: 8px;
+}
+
+ 
+ 
+
